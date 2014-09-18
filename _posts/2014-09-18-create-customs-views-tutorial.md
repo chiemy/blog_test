@@ -7,6 +7,17 @@ excerpt: "如何创建自定义和混合视图"
 tags: [android, custom view, tutorial]
 comments: true
 ---
+
+<section id="table-of-contents" class="toc">
+  <header>
+    <h3>主要内容</h3>
+  </header>
+<div id="drawer" markdown="1">
+*  Auto generated table of contents
+{:toc}
+</div>
+</section><!-- /#table-of-contents -->
+
 [原文链接 Creating custom and compound Views in Android - Tutorial](http://www.vogella.com/tutorials/AndroidCustomViews/article.html#tutorial_compoundcontrols3)
 
 ## 1.Custom View-自定义视图
