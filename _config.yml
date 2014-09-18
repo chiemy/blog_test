@@ -1,0 +1,61 @@
+# Site wide configuration
+
+title:            Chiemy's blog
+locale:           en_US
+url:              /blog
+
+
+# Jekyll configuration
+
+permalink:   /:categories/:title/
+markdown:  kramdown
+highlighter: pygments
+sass:
+  sass_dir: _sass
+  style: compressed
+gems:
+  - jekyll-sitemap
+
+kramdown:
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  use_coderay: false
+
+
+# Site owner
+owner:
+  name: chiemy
+  avatar: bio-photo.jpg
+  bio: "面带笑容，不气馁往前冲，我愈挫愈勇."
+  email: luobaolong@gmail.com
+  disqus-shortname: 
+  twitter: chiemyluo
+  weibo: chiemy
+  facebook: 
+  google:
+    plus: 
+    analytics: 
+    verify: 
+    ad-client: 
+    ad-slot: 
+  bing-verify: 
+  github: chiemy
+  stackoverflow: chiemy
+  linkedin: 
+  instagram: chiemyluo
+  lastfm:
+  tumblr:
+  pinterest:
+  foursquare:
+  steam:
+  dribbble:
+
+comments :
+    provider : duoshuo
+    duoshuo : 
+      short_name : chiemy
+
+include: [".htaccess"]
+exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "Gemfile", "Gemfile.lock", "LICENSE", "README.md"]
