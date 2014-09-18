@@ -23,13 +23,8 @@ comments: true
 {% endhighlight %}
 
 ##通过属性指定
-最后一种方式是通过HTML元素的时间控制属性。这种方法强烈不建议使用。
+最后一种方式是通过HTML元素的事件控制属性。这种方法强烈不建议使用。
 
-<!-- Inline code directly on HTML elements being clicked. -->
-<a href="javascript:alert( 'Hello World' );">Click Me!</a>
-<button onClick="alert( 'Good Bye World' );">Click Me Too!</button>
-
-源码：
 {% highlight html %}
 <!-- Inline code directly on HTML elements being clicked. -->
 <a href="javascript:alert( 'Hello World' );">Click Me!</a>
